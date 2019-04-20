@@ -1,8 +1,7 @@
 # analyse.py
 # This script takes a CSV data file of feature data. It runs the times through
-# K-Means Clustering to group the repsonse times, and then uses a K-Nearest 
-# Neighbours classifier with K-Fold cross validation to determine accuracy.
-# You can run the same file against the same file. i.e. analyse_all.py file1.csv file1.csv if you want to train and test on the same file
+# RandomForestClassifier to check its accuracy.
+# You can run the same file against the same file. i.e. analyse_all.py file1.csv file1.csv if you want to perform train + test on the same file
 # However, the cross-val with 10-fold is always performed on the first file. 
 import time
 import csv

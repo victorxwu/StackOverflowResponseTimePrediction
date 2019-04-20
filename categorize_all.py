@@ -1,7 +1,7 @@
 # analyse.py
-# This script takes a CSV data file of feature data. It runs the times through
-# K-Means Clustering to group the repsonse times, and then uses a K-Nearest 
-# Neighbours classifier with K-Fold cross validation to determine accuracy.
+# This script takes a CSV data file of feature data and group them into two groups:
+# 1. response time small or equal to 1 hour.
+# 2. response time greater than 1 hour.
 
 import csv
 import sys

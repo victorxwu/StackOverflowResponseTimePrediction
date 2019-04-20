@@ -1,9 +1,7 @@
 
 # filter.py
-# Filter data from the Stack Overflow export into a data
-# format that is easier to work with (json) and is filtered
-# such that it only returns records in a specific range.
-# It also removes anything that is not a question or answer.
+# Filter tags data from the Stack Overflow export into a data
+# format that is easier to work with (json)
 # H.E. Added encoding type to file open 
 
 import sys
@@ -13,9 +11,6 @@ from datetime import date
 from datetime import datetime
 
 class PostHandler(xml.sax.ContentHandler):
-
-    DATE_FROM = date(2016, 5, 1)
-    DATE_TO   = date(2016, 8, 1)
 
     def __init__(self, output):
         self.output = output

@@ -3,7 +3,6 @@
 # each question consisting of the rsr, asr, pr, and finally the answer time
 # for that post. Output all of these as a CSV file with one row per question.
 
-# popular tag = tag with at least 15 unique responders
 # answer time = creation date of answer - creation date of question
 # rsr = (users with avg response time below 2hr for that tag) / (total users)
 # asr = (users with at least 10 answers for that tag) / (total users)
