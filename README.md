@@ -35,7 +35,7 @@ Please make sure you added the python executable path to your PATH ENVIRONMENT v
      > command prompt: pip install scikit_learn-0.20.2-cp35-cp35m-win_amd64.whl <br />
      > direct download: https://www.lfd.uci.edu/~gohlke/pythonlibs/#scikit-learn
 
-## Instructions on each script: <br />
+## Functionality of each script: <br />
 1. filter_tagfile.py
    * This file 
 
