@@ -16,23 +16,37 @@ Setting up the work space: <br />
 1. Install visual cpp build tools <br />
 Link: http://landinghub.visualstudio.com/visual-cpp-build-tools
 
-2. This project is based on python version 3.5.2: https://www.python.org/downloads/release/python-352/ <br/ >
+2. This project is based on python version 3.5.2: https://www.python.org/downloads/release/python-352/ <br />
 Please make sure you added the python executable path to your PATH ENVIRONMENT variable.
 
 3. List of libraries used in this experiment:
    * numpy‑1.15.4+mkl‑cp35‑cp35m‑win_amd64.whl
    
-    > command prompt: pip install numpy‑1.15.4+mkl‑cp35‑cp35m‑win_amd64.whl <br />
-    > direct download: http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy 
+     > command prompt: pip install numpy‑1.15.4+mkl‑cp35‑cp35m‑win_amd64.whl <br />
+     > direct download: http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy 
    
    * scipy-1.2.0-cp35-cp35m-win_amd64.whl
    
-    > command prompt: pip install scipy-1.2.0-cp35-cp35m-win_amd64.whl <br />
-    > direct download: https://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy 
+     > command prompt: pip install scipy-1.2.0-cp35-cp35m-win_amd64.whl <br />
+     > direct download: https://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy 
    
    * scikit_learn-0.20.2-cp35-cp35m-win_amd64.whl
    
-    > command prompt: pip install scikit_learn-0.20.2-cp35-cp35m-win_amd64.whl <br />
-    > direct download: https://www.lfd.uci.edu/~gohlke/pythonlibs/#scikit-learn
+     > command prompt: pip install scikit_learn-0.20.2-cp35-cp35m-win_amd64.whl <br />
+     > direct download: https://www.lfd.uci.edu/~gohlke/pythonlibs/#scikit-learn
 
-## Instruction: <br />
+## Instructions on each script: <br />
+1. filter_tagfile.py
+   * This file 
+
+2. filter_year2017.py & filter_year2018.py
+
+
+3. generate_all.py
+
+
+4. categorize_all.py
+
+
+5. analyse_all.py
+
