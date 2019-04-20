@@ -18,8 +18,8 @@ Please make sure you added the python executable path to your PATH ENVIRONMENT v
 
 2. List of libraries used in this experiment:
    * numpy‑1.15.4+mkl‑cp35‑cp35m‑win_amd64.whl
-    >command prompt: pip install numpy‑1.15.4+mkl‑cp35‑cp35m‑win_amd64.whl
-    >direct download: http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy 
+    > command prompt: pip install numpy‑1.15.4+mkl‑cp35‑cp35m‑win_amd64.whl
+    > direct download: http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy 
    * 
 
 
