@@ -37,9 +37,13 @@ Please make sure you added the python executable path to your PATH ENVIRONMENT v
 
 ## Functionality of each script: <br />
 1. filter_tagfile.py
-   * This file 
+   * This script takes tags.xml and turn it into tags.json format so it is easier to work with. 
+   * Tags.json will later be used in generate_all.py.
 
 2. filter_year2017.py & filter_year2018.py
+   * Both scripts are doing similar things. They take posts.xml and turn it into filtered_posts.json. 
+   * The difference is that filter_year2017.py is taking 6 months worth of data from year 2017, and filter_year2018.py is taking 4 months worth of data from year 2018. 
+   * Please feel free to modify the time intervals for experiments.
 
 
 3. generate_all.py
