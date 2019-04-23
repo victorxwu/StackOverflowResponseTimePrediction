@@ -42,7 +42,7 @@ Please make sure you added the python executable path to your PATH ENVIRONMENT v
 
 2. filter_year2017.py & filter_year2018.py
    * Both scripts are doing similar things. They take posts.xml and turn it into filtered_posts.json with data from different years. 
-   * The difference is that filter_year2017.py is taking 6 months worth of data from year 2017, and filter_year2018.py is taking 4 months worth of data from year 2018. 
+   * The difference is that filter_year2017.py is taking 6 months worth of data from year 2017, and filter_year2018.py is taking 3 months worth of data from year 2018. 
    * Please feel free to modify the time intervals for experiments.
 
 3. generate_all.py
