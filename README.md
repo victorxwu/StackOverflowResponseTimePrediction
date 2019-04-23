@@ -3,6 +3,8 @@ Predicting response time on posts from Stack Overflow using tag based features a
 
 This approach attempts to improve on the ML model created by Goderie et al. You can find their paper at: https://ieeexplore.ieee.org/document/7180106
 
+This approach also is based on https://github.com/true-developer/Research-ML, which is done by former students __chrisfosterelli__ and __erwinli__ at Thompson Rivers University. 
+
 ## Preparation: <br /> 
 Data dump from StackExchange regarding both posts and tags from Stack Overflow are used to create the model. To get started, you will need to download the newest data dump from archive.org:
   * __stackoverflow.com-Posts.7z:__ https://archive.org/download/stackexchange/stackoverflow.com-Posts.7z
