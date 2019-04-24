@@ -52,7 +52,10 @@ Please make sure you added the python executable path to your PATH ENVIRONMENT v
    * Tag.json is used here to create one of the features. 
 
 4. categorize_all.py
-
+   * This script will take the feature csv file (features.csv) and categorize the features based on the response time (labeledfeatures.csv). 
+   * Currently the script will group the response time into: within 1 hour, and more than 1 hour.
+   * You can modify the script to try different time labels. 
 
 5. analyse_all.py
-
+   * This script will take the labeled feature csv file (labeledfeatures.csv) and do a prediction using RandomForest Classifier. 
+   * 10-fold cross validation will be performed.
