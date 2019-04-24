@@ -68,6 +68,6 @@ Please make sure you added the python executable path to your PATH ENVIRONMENT v
    * 10-fold cross validation will be performed.
       > analyse_all.py labeledfeatures2017.csv labeledfeatures2018.csv <br /> 
       > analyse_all.py labeledfeatures2018.csv labeledfeatures2017.csv <br /> 
-      * The format is: analyse_all.py trainingdataset.csv testingdataset.csv
+      * The format is: __analyse_all.py trainingdataset.csv testingdataset.csv__
       * The result will give you the prediction accuracy by training with the first input, and testing using second input. 
       * The 10-fold cross validation will always be performed on the training dataset. And the cross validation result is always for training dataset (the first user input).
